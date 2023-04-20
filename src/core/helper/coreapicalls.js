@@ -1,4 +1,7 @@
-import { API } from "../../backend";
+// import { API } from "../../backend";
+
+const API = "https://ecommercebackendapi.onrender.com"
+
 
 export const getProducts = () => {
   return fetch(`${API}/products`, { method: "GET" })
