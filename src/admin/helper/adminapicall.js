@@ -1,6 +1,6 @@
 // import { API } from "../../backend";
 
-const API = "https://ecommercebackendapi.onrender.com"
+const API = "https://ecommercebackendapi.onrender.com/api"
 
 //category calls
 export const createCategory = (userId, token, category) => {
