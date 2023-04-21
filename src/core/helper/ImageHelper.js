@@ -1,5 +1,8 @@
 import React from "react";
-import { API } from "../../backend";
+// import { API } from "../../backend";
+
+const API = "https://ecommercebackendapi.onrender.com/api"
+
 
 const ImageHelper = ({ product }) => {
   const imageurl = product
