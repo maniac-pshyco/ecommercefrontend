@@ -27,6 +27,7 @@ export default function Home() {
     <Base title="Home Page" description="Welcome to the Store">
       <div className="row text-center">
         <h1 className="text-white">All of our Products</h1>
+        <h3 className="text-red">Site may take 1-2 min to connect to backend</h3>
         <div className="row">
           {products.map((product, index) => {
             return (
